@@ -22,8 +22,8 @@ def gradient_descent(X, y, alpha, iterations):
         dW1, db1, dW2, db2, dW3, db3 = backward(W1, Z1, A1, W2, Z2, A2, W3, Z3, A3, X, y)
         # update weights and biases based on calculated gradients
         W1, b1, W2, b2, W3, b3 = update_params(W1, b1, W2, b2, W3, b3, dW1, db1, dW2, db2, dW3, db3, alpha)
-        # display prediction details every 100th epoch/iteration
-        if i == 0 or (i+1) % 100 == 0:
+        # display prediction details every 10th epoch/iteration
+        if i == 0 or (i+1) % 10 == 0:
             print("Iteration: {}".format(i + 1))
             predictions = get_predictions(A3)
             print("Predicted Labels: {}, True Labels: {}".format(predictions, y))
