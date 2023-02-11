@@ -1,0 +1,17 @@
+dataset:
+  train_set: train  # to load the train set
+  test_set: test  # to load the test set
+model:
+  model_dir: model
+  model_file_path: model.pkl
+  units_layer_h1: 10  # number of units/neurons in the first hidden layer
+  units_layer_h2: 20  # number of units/neurons in the second hidden layer
+  units_layer_output: 10  # number of units/neurons in the output layer that should be equal to the number of classes in the dataset
+optimizer:
+  learning_rate: 0.10
+train:
+  train_trigger: True  # to trigger training in app.py
+  iterations: 100  # number of iterations is same as the number of epochs here, considering batch size as 1
+  intervals: 10  # at what interval to log model training progress
+test:
+  test_trigger: True  # to trigger testing in app.py
