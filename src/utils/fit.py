@@ -1,5 +1,5 @@
 import numpy as np
-from network import *
+from utils.network import *
 
 # get predictions from the output layer
 def get_predictions(A):
