@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 ################################# config variables #################################
 train_set = 'train'
-model_path = r"C:\Users\smsou\OneDrive\MY-DEVICE\Sync\Documents\GitHub\Neural-Network-from-Scratch\model\model.pkl" # add model_dir and model_file_path
+model_path = r"C:\Users\smsou\OneDrive\MY-DEVICE\Sync\Documents\GitHub\Neural-Network-from-Scratch\model\model.pkl" # add model_dir and model_filename
 units_layer_h1 = 10
 units_layer_h2 = 20
 units_layer_output = 10
@@ -17,7 +17,7 @@ iterations = 100
 intervals = 10
 ####################################################################################
 
-# fit the neural network with train set
+# fit the neural network with the train set
 # optimzer: gradient descent
 # alpha: learning rate
 # iterations: epochs considering batch size as 1
