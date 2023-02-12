@@ -3,9 +3,9 @@ dataset:
   test_set: test  # to load the test set
 model:
   model_dir: model
-  model_file_path: model.pkl
-  units_layer_h1: 10  # number of units/neurons in the first hidden layer
-  units_layer_h2: 20  # number of units/neurons in the second hidden layer
+  model_filename: model.pkl
+  units_layer_h1: 20  # number of units/neurons in the first hidden layer
+  units_layer_h2: 30  # number of units/neurons in the second hidden layer
   units_layer_output: 10  # number of units/neurons in the output layer that should be equal to the number of classes in the dataset
 optimizer:
   learning_rate: 0.10
