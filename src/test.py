@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 ################################# config variables #################################
 test_set = 'test'
-model_path = r"C:\Users\smsou\OneDrive\MY-DEVICE\Sync\Documents\GitHub\Neural-Network-from-Scratch\model\model.pkl" # add model_dir and model_file_path
+model_path = r"C:\Users\smsou\OneDrive\MY-DEVICE\Sync\Documents\GitHub\Neural-Network-from-Scratch\model\model.pkl" # add model_dir and model_filename
 ####################################################################################
 
 # get predictions from the trained model for the images in the test set
