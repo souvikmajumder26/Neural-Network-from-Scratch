@@ -5,15 +5,12 @@ def load_data(set):
     (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
     if set == 'train':
         # summarize loaded train set
-        print("X_train=%s, y_train=%s" % (X_train.shape, y_train.shape))
+        # print("X_train=%s, y_train=%s" % (X_train.shape, y_train.shape))
         return X_train, y_train
-    elif set == 'test':
+    else: # set == 'test'
         # summarize loaded test set
-        print("X_test=%s, y_test=%s" % (X_test.shape, y_test.shape))
+        # print("X_test=%s, y_test=%s" % (X_test.shape, y_test.shape))
         return X_test, y_test
-    else:
-        print("Could not load dataset... wrong value of argument: 'set'. It should be either 'train' or 'test'.")
-        return
 
 def preprocess_data(X):
     # normalize the pixel values
