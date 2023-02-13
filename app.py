@@ -1,14 +1,11 @@
 import sys
 import yaml
-import logging
 import subprocess
 from pathlib import Path
 from yaml import SafeLoader
-from src.constants import Constants
-from src.logger import get_logger
 
-import warnings
-warnings.filterwarnings("ignore")
+from src.constants import Constants
+from src.logger import custom_logger
 
 if __name__ == "__main__":
 
@@ -37,20 +34,38 @@ if __name__ == "__main__":
     train_trigger = slice_config['train']['trigger']
     test_trigger = slice_config['test']['trigger']
 
+    # get the log file dir from config
+    log_dir = ROOT / slice_config['log']['log_dir']
+    # make the directory if it does not exist
+    log_dir.mkdir(parents = True, exist_ok = True)
+    # get the log file path
+    log_path = log_dir / slice_config['log']['log_name']
+    # convert the path to string in a format compliant with the current OS
+    log_path = log_path.as_posix()
+
+    # get the value for the log level from config
+    log_level = slice_config['log']['log_level']
+
+    logger = custom_logger("Neural Network Logs", log_path, log_level)
+
+    logger.info("Pipeline starting...")
+
     if train_trigger:
         # run the training script
-        print("Subprocess 1: Running training script...")
+        logger.info("Subprocess 1: Running training script...")
         try:
             subprocess.run(['python', train_path], check = True)
-            print("Training finished!")
+            logger.info("Training finished!")
         except Exception as e:
-            print("Error running training script: %s" % str(e))
+            logger.error("Error running training script: %s" % str(e))
 
     if test_trigger:
         # run the testing script
-        print("Subprocess 2: Running testing script...")
+        logger.info("Subprocess 2: Running testing script...")
         try:
             subprocess.run(['python', test_path], check = True)
-            print("Testing finished!")
+            logger.info("Testing finished!")
         except Exception as e:
-            print("Error running testing script: %s" % str(e))
+            logger.error("Error running testing script: %s" % str(e))
+    
+    logger.info("Pipeline completed!")
