@@ -1,0 +1,22 @@
+model:
+  model_dir: models
+  model_name: model.pickle
+  units_layer_h1: 20  # number of units/neurons in the first hidden layer
+  units_layer_h2: 30  # number of units/neurons in the second hidden layer
+  units_layer_output: 10  # number of units/neurons in the output layer that should be equal to the number of classes in the dataset
+optimizer:
+  learning_rate: 0.10
+train:
+  script_dir: src
+  script_name: train.py
+  trigger: True  # to run training in app.py
+  iterations: 1000  # number of iterations is same as the number of epochs here, considering batch size as 1
+  intervals: 10  # at what interval to log model training progress
+test:
+  script_dir: src
+  script_name: test.py
+  trigger: True  # to run testing in app.py
+log:
+  log_dir: logs
+  log_name: app.log
+  log_level: DEBUG  # set the log level 
