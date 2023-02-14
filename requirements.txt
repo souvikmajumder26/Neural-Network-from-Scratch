@@ -1,0 +1,5 @@
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+keras==2.11.0
+numpy==1.24.2
+PyYAML==6.0
+wincertstore==0.2
