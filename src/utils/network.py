@@ -10,7 +10,10 @@ def init_params(X, units_layer_h1, units_layer_h2, units_layer_output):
 
     # initialization of weights can be done either by rand or randn:
     # > rand gives values from a uniform distribution in range [0, 1) with mean 0.5,
-    # we subtract the values by 0.5 to make the mean 0 to maintain symmetry in the network.
+    # we subtract the values by 0.5 to make the mean 0 for two main reasons - to maintain symmetry in the network, and if we pass
+    # the values of weights in the range [0, 1), i.e., all positive numbers, then all of the unit outputs will go through the
+    # activation function linearly as we have used ReLU which is basically y = max(0, x), and we do not want that since activation function
+    # is present to introduce non-linearity in the network and learn the non-linear relationship between the input features and the output labels.
     # this helps in preventing saturation in the activation function, which can happen when weights are initialized to large values.
     # additionally, a symmetrical distribution ensures that the activations at the output layer will be roughly balanced,
     # avoiding early convergence to a sub-optimal solution.
@@ -19,7 +22,7 @@ def init_params(X, units_layer_h1, units_layer_h2, units_layer_output):
     # > initializing the weights to zero will lead all the neurons to learn the same features, which is not expected.
     
     # the shape of weight matrix between the input layer and the first hidden layer:
-    # (number of units/neurons in the layer, number of pixels in each image, i.e., number of rows in the input data matrix).
+    # (number of units/neurons in the layer, number of pixels in each image, i.e., number of rows in the input data matrix as it was transposed).
     # for the fashion-mnist dataset, each image is 28*28, therefore the flattened image size is 768 which was assigned to the variable 'n'
     W1 = np.random.rand(units_layer_h1, n) - 0.5
     # initialization of biases can be done either by rand or zeros:
