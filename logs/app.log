@@ -359,3 +359,315 @@
 [2023-02-13 23:29:15] - Neural Network Logs - {test.py:63} - INFO - Test Accuracy: 80.24%
 [2023-02-13 23:29:15] - Neural Network Logs - {app.py:67} - INFO - Testing finished!
 [2023-02-13 23:29:15] - Neural Network Logs - {app.py:71} - INFO - Pipeline completed!
+[2023-02-14 22:32:11] - Neural Network Logs - {app.py:51} - INFO - Pipeline starting...
+[2023-02-14 22:32:11] - Neural Network Logs - {app.py:55} - INFO - Subprocess 1: Running training script...
+[2023-02-14 22:32:21] - Neural Network Logs - {train.py:30} - INFO - Iteration: 1
+[2023-02-14 22:32:21] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [1 8 1 ... 1 1 8], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:21] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 11.83%
+[2023-02-14 22:32:24] - Neural Network Logs - {train.py:30} - INFO - Iteration: 10
+[2023-02-14 22:32:24] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 2 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:24] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 39.37%
+[2023-02-14 22:32:27] - Neural Network Logs - {train.py:30} - INFO - Iteration: 20
+[2023-02-14 22:32:27] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 2 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:27] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 56.84%
+[2023-02-14 22:32:30] - Neural Network Logs - {train.py:30} - INFO - Iteration: 30
+[2023-02-14 22:32:30] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:30] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 62.30%
+[2023-02-14 22:32:33] - Neural Network Logs - {train.py:30} - INFO - Iteration: 40
+[2023-02-14 22:32:33] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 2 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:33] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 63.00%
+[2023-02-14 22:32:36] - Neural Network Logs - {train.py:30} - INFO - Iteration: 50
+[2023-02-14 22:32:36] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:36] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 65.51%
+[2023-02-14 22:32:40] - Neural Network Logs - {train.py:30} - INFO - Iteration: 60
+[2023-02-14 22:32:40] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 2 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:40] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 66.20%
+[2023-02-14 22:32:43] - Neural Network Logs - {train.py:30} - INFO - Iteration: 70
+[2023-02-14 22:32:43] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:43] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 68.00%
+[2023-02-14 22:32:50] - Neural Network Logs - {train.py:30} - INFO - Iteration: 80
+[2023-02-14 22:32:50] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:50] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 68.53%
+[2023-02-14 22:32:53] - Neural Network Logs - {train.py:30} - INFO - Iteration: 90
+[2023-02-14 22:32:53] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:53] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 69.53%
+[2023-02-14 22:32:56] - Neural Network Logs - {train.py:30} - INFO - Iteration: 100
+[2023-02-14 22:32:56] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:56] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 69.83%
+[2023-02-14 22:32:59] - Neural Network Logs - {train.py:30} - INFO - Iteration: 110
+[2023-02-14 22:32:59] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:32:59] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 69.94%
+[2023-02-14 22:33:03] - Neural Network Logs - {train.py:30} - INFO - Iteration: 120
+[2023-02-14 22:33:03] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:03] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 70.93%
+[2023-02-14 22:33:06] - Neural Network Logs - {train.py:30} - INFO - Iteration: 130
+[2023-02-14 22:33:06] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:06] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 71.50%
+[2023-02-14 22:33:09] - Neural Network Logs - {train.py:30} - INFO - Iteration: 140
+[2023-02-14 22:33:09] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:09] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 72.00%
+[2023-02-14 22:33:12] - Neural Network Logs - {train.py:30} - INFO - Iteration: 150
+[2023-02-14 22:33:12] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:12] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 72.41%
+[2023-02-14 22:33:16] - Neural Network Logs - {train.py:30} - INFO - Iteration: 160
+[2023-02-14 22:33:16] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:16] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 72.80%
+[2023-02-14 22:33:19] - Neural Network Logs - {train.py:30} - INFO - Iteration: 170
+[2023-02-14 22:33:19] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:19] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 73.16%
+[2023-02-14 22:33:22] - Neural Network Logs - {train.py:30} - INFO - Iteration: 180
+[2023-02-14 22:33:22] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:22] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 73.51%
+[2023-02-14 22:33:25] - Neural Network Logs - {train.py:30} - INFO - Iteration: 190
+[2023-02-14 22:33:25] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:25] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 73.81%
+[2023-02-14 22:33:28] - Neural Network Logs - {train.py:30} - INFO - Iteration: 200
+[2023-02-14 22:33:28] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:28] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 74.11%
+[2023-02-14 22:33:32] - Neural Network Logs - {train.py:30} - INFO - Iteration: 210
+[2023-02-14 22:33:32] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:32] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 74.45%
+[2023-02-14 22:33:35] - Neural Network Logs - {train.py:30} - INFO - Iteration: 220
+[2023-02-14 22:33:35] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:35] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 74.69%
+[2023-02-14 22:33:38] - Neural Network Logs - {train.py:30} - INFO - Iteration: 230
+[2023-02-14 22:33:38] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:38] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 74.93%
+[2023-02-14 22:33:41] - Neural Network Logs - {train.py:30} - INFO - Iteration: 240
+[2023-02-14 22:33:41] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:41] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.08%
+[2023-02-14 22:33:45] - Neural Network Logs - {train.py:30} - INFO - Iteration: 250
+[2023-02-14 22:33:45] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:45] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.08%
+[2023-02-14 22:33:48] - Neural Network Logs - {train.py:30} - INFO - Iteration: 260
+[2023-02-14 22:33:48] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:48] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 74.46%
+[2023-02-14 22:33:52] - Neural Network Logs - {train.py:30} - INFO - Iteration: 270
+[2023-02-14 22:33:52] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:52] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.19%
+[2023-02-14 22:33:55] - Neural Network Logs - {train.py:30} - INFO - Iteration: 280
+[2023-02-14 22:33:55] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:55] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.58%
+[2023-02-14 22:33:58] - Neural Network Logs - {train.py:30} - INFO - Iteration: 290
+[2023-02-14 22:33:58] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:33:58] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.75%
+[2023-02-14 22:34:01] - Neural Network Logs - {train.py:30} - INFO - Iteration: 300
+[2023-02-14 22:34:01] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:01] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 75.94%
+[2023-02-14 22:34:04] - Neural Network Logs - {train.py:30} - INFO - Iteration: 310
+[2023-02-14 22:34:04] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:04] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 76.03%
+[2023-02-14 22:34:07] - Neural Network Logs - {train.py:30} - INFO - Iteration: 320
+[2023-02-14 22:34:07] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:07] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 76.10%
+[2023-02-14 22:34:10] - Neural Network Logs - {train.py:30} - INFO - Iteration: 330
+[2023-02-14 22:34:10] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:10] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 76.38%
+[2023-02-14 22:34:14] - Neural Network Logs - {train.py:30} - INFO - Iteration: 340
+[2023-02-14 22:34:14] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:14] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 76.86%
+[2023-02-14 22:34:17] - Neural Network Logs - {train.py:30} - INFO - Iteration: 350
+[2023-02-14 22:34:17] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:17] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.05%
+[2023-02-14 22:34:20] - Neural Network Logs - {train.py:30} - INFO - Iteration: 360
+[2023-02-14 22:34:20] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:20] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.18%
+[2023-02-14 22:34:23] - Neural Network Logs - {train.py:30} - INFO - Iteration: 370
+[2023-02-14 22:34:23] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:23] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.33%
+[2023-02-14 22:34:27] - Neural Network Logs - {train.py:30} - INFO - Iteration: 380
+[2023-02-14 22:34:27] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:27] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.38%
+[2023-02-14 22:34:30] - Neural Network Logs - {train.py:30} - INFO - Iteration: 390
+[2023-02-14 22:34:30] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:30] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.36%
+[2023-02-14 22:34:34] - Neural Network Logs - {train.py:30} - INFO - Iteration: 400
+[2023-02-14 22:34:34] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:34] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.49%
+[2023-02-14 22:34:38] - Neural Network Logs - {train.py:30} - INFO - Iteration: 410
+[2023-02-14 22:34:38] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:38] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 77.85%
+[2023-02-14 22:34:41] - Neural Network Logs - {train.py:30} - INFO - Iteration: 420
+[2023-02-14 22:34:41] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:41] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.05%
+[2023-02-14 22:34:44] - Neural Network Logs - {train.py:30} - INFO - Iteration: 430
+[2023-02-14 22:34:44] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:44] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.15%
+[2023-02-14 22:34:49] - Neural Network Logs - {train.py:30} - INFO - Iteration: 440
+[2023-02-14 22:34:49] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:49] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.30%
+[2023-02-14 22:34:52] - Neural Network Logs - {train.py:30} - INFO - Iteration: 450
+[2023-02-14 22:34:52] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:52] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.42%
+[2023-02-14 22:34:55] - Neural Network Logs - {train.py:30} - INFO - Iteration: 460
+[2023-02-14 22:34:55] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:55] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.53%
+[2023-02-14 22:34:58] - Neural Network Logs - {train.py:30} - INFO - Iteration: 470
+[2023-02-14 22:34:58] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:34:58] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.64%
+[2023-02-14 22:35:01] - Neural Network Logs - {train.py:30} - INFO - Iteration: 480
+[2023-02-14 22:35:01] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:01] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.76%
+[2023-02-14 22:35:04] - Neural Network Logs - {train.py:30} - INFO - Iteration: 490
+[2023-02-14 22:35:04] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:04] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.87%
+[2023-02-14 22:35:07] - Neural Network Logs - {train.py:30} - INFO - Iteration: 500
+[2023-02-14 22:35:07] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:07] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 78.97%
+[2023-02-14 22:35:11] - Neural Network Logs - {train.py:30} - INFO - Iteration: 510
+[2023-02-14 22:35:11] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:11] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.09%
+[2023-02-14 22:35:16] - Neural Network Logs - {train.py:30} - INFO - Iteration: 520
+[2023-02-14 22:35:16] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:16] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.16%
+[2023-02-14 22:35:19] - Neural Network Logs - {train.py:30} - INFO - Iteration: 530
+[2023-02-14 22:35:19] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:19] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.22%
+[2023-02-14 22:35:27] - Neural Network Logs - {train.py:30} - INFO - Iteration: 540
+[2023-02-14 22:35:27] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:27] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.30%
+[2023-02-14 22:35:33] - Neural Network Logs - {train.py:30} - INFO - Iteration: 550
+[2023-02-14 22:35:33] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:33] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.41%
+[2023-02-14 22:35:36] - Neural Network Logs - {train.py:30} - INFO - Iteration: 560
+[2023-02-14 22:35:36] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:36] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.46%
+[2023-02-14 22:35:39] - Neural Network Logs - {train.py:30} - INFO - Iteration: 570
+[2023-02-14 22:35:39] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:39] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.54%
+[2023-02-14 22:35:42] - Neural Network Logs - {train.py:30} - INFO - Iteration: 580
+[2023-02-14 22:35:42] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:42] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.62%
+[2023-02-14 22:35:45] - Neural Network Logs - {train.py:30} - INFO - Iteration: 590
+[2023-02-14 22:35:45] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:45] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.69%
+[2023-02-14 22:35:48] - Neural Network Logs - {train.py:30} - INFO - Iteration: 600
+[2023-02-14 22:35:48] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:48] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.79%
+[2023-02-14 22:35:52] - Neural Network Logs - {train.py:30} - INFO - Iteration: 610
+[2023-02-14 22:35:52] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:52] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.88%
+[2023-02-14 22:35:55] - Neural Network Logs - {train.py:30} - INFO - Iteration: 620
+[2023-02-14 22:35:55] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:55] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.89%
+[2023-02-14 22:35:58] - Neural Network Logs - {train.py:30} - INFO - Iteration: 630
+[2023-02-14 22:35:58] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:35:58] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.94%
+[2023-02-14 22:36:02] - Neural Network Logs - {train.py:30} - INFO - Iteration: 640
+[2023-02-14 22:36:02] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:02] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 79.97%
+[2023-02-14 22:36:05] - Neural Network Logs - {train.py:30} - INFO - Iteration: 650
+[2023-02-14 22:36:05] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:05] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.01%
+[2023-02-14 22:36:09] - Neural Network Logs - {train.py:30} - INFO - Iteration: 660
+[2023-02-14 22:36:09] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:09] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.12%
+[2023-02-14 22:36:12] - Neural Network Logs - {train.py:30} - INFO - Iteration: 670
+[2023-02-14 22:36:12] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:12] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.25%
+[2023-02-14 22:36:16] - Neural Network Logs - {train.py:30} - INFO - Iteration: 680
+[2023-02-14 22:36:16] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:16] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.35%
+[2023-02-14 22:36:21] - Neural Network Logs - {train.py:30} - INFO - Iteration: 690
+[2023-02-14 22:36:21] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:21] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.40%
+[2023-02-14 22:36:25] - Neural Network Logs - {train.py:30} - INFO - Iteration: 700
+[2023-02-14 22:36:25] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:25] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.44%
+[2023-02-14 22:36:28] - Neural Network Logs - {train.py:30} - INFO - Iteration: 710
+[2023-02-14 22:36:28] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:28] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.49%
+[2023-02-14 22:36:33] - Neural Network Logs - {train.py:30} - INFO - Iteration: 720
+[2023-02-14 22:36:33] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:33] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.54%
+[2023-02-14 22:36:38] - Neural Network Logs - {train.py:30} - INFO - Iteration: 730
+[2023-02-14 22:36:38] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:38] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.62%
+[2023-02-14 22:36:41] - Neural Network Logs - {train.py:30} - INFO - Iteration: 740
+[2023-02-14 22:36:41] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:41] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.69%
+[2023-02-14 22:36:44] - Neural Network Logs - {train.py:30} - INFO - Iteration: 750
+[2023-02-14 22:36:44] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:44] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.68%
+[2023-02-14 22:36:47] - Neural Network Logs - {train.py:30} - INFO - Iteration: 760
+[2023-02-14 22:36:47] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:47] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.62%
+[2023-02-14 22:36:50] - Neural Network Logs - {train.py:30} - INFO - Iteration: 770
+[2023-02-14 22:36:50] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:50] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.46%
+[2023-02-14 22:36:54] - Neural Network Logs - {train.py:30} - INFO - Iteration: 780
+[2023-02-14 22:36:54] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:54] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.56%
+[2023-02-14 22:36:58] - Neural Network Logs - {train.py:30} - INFO - Iteration: 790
+[2023-02-14 22:36:58] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:36:58] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.75%
+[2023-02-14 22:37:03] - Neural Network Logs - {train.py:30} - INFO - Iteration: 800
+[2023-02-14 22:37:03] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:03] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.88%
+[2023-02-14 22:37:07] - Neural Network Logs - {train.py:30} - INFO - Iteration: 810
+[2023-02-14 22:37:07] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:07] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 80.96%
+[2023-02-14 22:37:11] - Neural Network Logs - {train.py:30} - INFO - Iteration: 820
+[2023-02-14 22:37:11] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:11] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.01%
+[2023-02-14 22:37:16] - Neural Network Logs - {train.py:30} - INFO - Iteration: 830
+[2023-02-14 22:37:16] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:16] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.04%
+[2023-02-14 22:37:21] - Neural Network Logs - {train.py:30} - INFO - Iteration: 840
+[2023-02-14 22:37:21] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:21] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.10%
+[2023-02-14 22:37:25] - Neural Network Logs - {train.py:30} - INFO - Iteration: 850
+[2023-02-14 22:37:25] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:25] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.13%
+[2023-02-14 22:37:29] - Neural Network Logs - {train.py:30} - INFO - Iteration: 860
+[2023-02-14 22:37:29] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:29] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.18%
+[2023-02-14 22:37:33] - Neural Network Logs - {train.py:30} - INFO - Iteration: 870
+[2023-02-14 22:37:33] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:33] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.22%
+[2023-02-14 22:37:37] - Neural Network Logs - {train.py:30} - INFO - Iteration: 880
+[2023-02-14 22:37:37] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:37] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.28%
+[2023-02-14 22:37:40] - Neural Network Logs - {train.py:30} - INFO - Iteration: 890
+[2023-02-14 22:37:40] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:40] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.33%
+[2023-02-14 22:37:43] - Neural Network Logs - {train.py:30} - INFO - Iteration: 900
+[2023-02-14 22:37:43] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:43] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.38%
+[2023-02-14 22:37:46] - Neural Network Logs - {train.py:30} - INFO - Iteration: 910
+[2023-02-14 22:37:46] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:46] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.42%
+[2023-02-14 22:37:50] - Neural Network Logs - {train.py:30} - INFO - Iteration: 920
+[2023-02-14 22:37:50] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:50] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.48%
+[2023-02-14 22:37:53] - Neural Network Logs - {train.py:30} - INFO - Iteration: 930
+[2023-02-14 22:37:53] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:53] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.53%
+[2023-02-14 22:37:56] - Neural Network Logs - {train.py:30} - INFO - Iteration: 940
+[2023-02-14 22:37:56] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:37:56] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.55%
+[2023-02-14 22:38:00] - Neural Network Logs - {train.py:30} - INFO - Iteration: 950
+[2023-02-14 22:38:00] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:00] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.58%
+[2023-02-14 22:38:03] - Neural Network Logs - {train.py:30} - INFO - Iteration: 960
+[2023-02-14 22:38:03] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 6 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:03] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.62%
+[2023-02-14 22:38:07] - Neural Network Logs - {train.py:30} - INFO - Iteration: 970
+[2023-02-14 22:38:07] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 0 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:07] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.66%
+[2023-02-14 22:38:10] - Neural Network Logs - {train.py:30} - INFO - Iteration: 980
+[2023-02-14 22:38:10] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 0 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:10] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.70%
+[2023-02-14 22:38:14] - Neural Network Logs - {train.py:30} - INFO - Iteration: 990
+[2023-02-14 22:38:14] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 0 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:14] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.73%
+[2023-02-14 22:38:17] - Neural Network Logs - {train.py:30} - INFO - Iteration: 1000
+[2023-02-14 22:38:17] - Neural Network Logs - {train.py:32} - INFO - Predicted Labels: [9 0 3 ... 3 0 5], True Labels: [9 0 0 ... 3 0 5]
+[2023-02-14 22:38:17] - Neural Network Logs - {train.py:34} - INFO - Train Accuracy: 81.77%
+[2023-02-14 22:38:17] - Neural Network Logs - {train.py:88} - INFO - Model parameters saved!
+[2023-02-14 22:38:18] - Neural Network Logs - {app.py:58} - INFO - Training finished!
+[2023-02-14 22:38:18] - Neural Network Logs - {app.py:64} - INFO - Subprocess 2: Running testing script...
+[2023-02-14 22:38:25] - Neural Network Logs - {test.py:60} - INFO - Model parameters loaded!
+[2023-02-14 22:38:25] - Neural Network Logs - {test.py:63} - INFO - Test Accuracy: 80.84%
+[2023-02-14 22:38:25] - Neural Network Logs - {app.py:67} - INFO - Testing finished!
+[2023-02-14 22:38:25] - Neural Network Logs - {app.py:71} - INFO - Pipeline completed!
